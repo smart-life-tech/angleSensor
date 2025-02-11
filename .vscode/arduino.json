@@ -1,0 +1,5 @@
+{
+    "configuration": "mode=on",
+    "board": "arduino:megaavr:uno2018",
+    "sketch": "adlx335\\adlx335.ino"
+}

@@ -100,7 +100,7 @@ void setup()
     digitalWrite(relayPin, LOW); // Ensure relay is off at startup
 
     // Initialize I2C sensors
-    Wire.begin(D2, D1); // SDA=D2, SCL=D1
+    Wire.begin(D4, D3); // SDA=D4, SCL=D3
     if (!mlx.begin())
     {
         Serial.println(F("Error: MLX90614 not detected!"));
